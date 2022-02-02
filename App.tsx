@@ -86,6 +86,8 @@ const styles = StyleSheet.create({
   thumbnail: {
     width: 300,
     height: 300,
-    resizeMode: "contain"
+    // resizeMode: "contain",
+    resizeMode: "stretch",
+    // resizeMode: "cover"
   }
 });
