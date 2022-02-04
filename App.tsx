@@ -6,6 +6,7 @@ import * as Sharing from 'expo-sharing';
 import uploadToAnonymousFilesAsync from 'anonymous-files'; 
 // import logo from './assets/img0.png'; 
 import logo from './assets/img0.png'; 
+import  TestScreen  from './Screens/TestScreen';
 
 
 
@@ -62,6 +63,9 @@ export default function App() {
   return (
 
     <View style={styles.container}>
+
+    <TestScreen/>
+
     {/* Displaying Image in the app */}
       <Image source={logo} style={styles.logo} /> 
       {/* Loading imagese by URL */}
